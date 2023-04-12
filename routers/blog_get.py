@@ -47,3 +47,8 @@ def get_blog(id: int, response: Response):
     else:
         response.status_code = status.HTTP_200_OK
         return {"message": f"blog with id {id}"}
+
+
+@router.get("/status/test/{id}")
+def get_blog_status(id: int):
+    pass
