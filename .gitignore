@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 .vscode
 fastapi-venv
-=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -131,4 +129,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
->>>>>>> f6ff09d33c697113083607ac8e46951c91ba44e3
