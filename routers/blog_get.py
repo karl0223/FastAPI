@@ -51,4 +51,7 @@ def get_blog(id: int, response: Response):
 
 @router.get("/status/test/{id}")
 def get_blog_status(id: int):
-    pass
+    if id > 5:
+        return {"message": f"blog with id {id} not found"}
+    else:
+        return {"message": f"blog with id {id}"}
